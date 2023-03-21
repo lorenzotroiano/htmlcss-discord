@@ -20,6 +20,7 @@ button {
     border-radius: 20px;
     height: auto;
     padding: 12px;
+    border: 0 solid white;
 }
 
 button.blu-notte {
@@ -53,6 +54,12 @@ button.blu-chiaro {
 a{
     text-decoration: none;
     color: white;
+}
+
+a:hover, a:active {
+    
+    text-decoration: underline;
+    color: #aaa;
 }
 
 #hero {
