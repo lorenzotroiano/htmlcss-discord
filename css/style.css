@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+header {
+    background-image: url(../img/jumbo.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 425px;
+    padding: 10px;
+}
 
 button {
     border-radius: 20px;
@@ -37,11 +44,20 @@ button.blu-chiaro {
 
 a{
     text-decoration: none;
+    color: white;
 }
 
 #hero {
     text-align: center;
-    padding: 50px;
+    padding: 100px;
+    width: 60%;
+    margin: 0 auto;
+    color: white;
+    min-height: 200px;
+}
+
+.stacco-sotto {
+    margin-bottom: 10px;
 }
 
 
@@ -115,23 +131,22 @@ footer {
 
 /* regole debug */
 
-header {
-    min-height: 100px;
-    background-color: violet;
-    border: solid 3px black;
-    padding: 10px;
-}
+/* header {
+    min-height: 425px;
+    /* background-color: violet;
+    border: solid 3px black; */
+    /* padding: 10px;
+} */ 
 
 nav {
     min-height: 40px;
-    background-color: orange;
+    /* background-color: orange; */
 }
 
-#hero {
-    min-height: 100px;
-    background-color: aquamarine;
-    
-}
+/* #hero {
+    min-height: 200px;
+    /* background-color: aquamarine; */
+/* } */
 
 .debug {
     
